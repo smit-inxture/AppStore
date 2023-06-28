@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "879f3d88-af58-40a6-be66-8aac751eff1e",
+		"name": "PlayStoreApps",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23348417"
+	},
+	"item": [
+		{
+			"name": "Get AppDetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/app_details/?page_size=100&search=",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"app_details",
+						""
+					],
+					"query": [
+						{
+							"key": "page_size",
+							"value": "100"
+						},
+						{
+							"key": "search",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post AppDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/app_details/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"app_details",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get AppPackage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/package/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"package",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post AppPackage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/package/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"package",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
